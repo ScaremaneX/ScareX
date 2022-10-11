@@ -11,8 +11,8 @@ local MainSection = Main:NewSection("Lock / Anti lock")
 
 -- BLATANT LOCK
 MainSection:NewButton("Blatant Lock", "Keybine is c", function()
-    getgenv().OldAimPart = "UpperTorso"
-getgenv().AimPart = "UpperTorso" -- For R15 Games: {UpperTorso, LowerTorso, HumanoidRootPart, Head} | For R6 Games: {Head, Torso, HumanoidRootPart}  
+    getgenv().OldAimPart = "Head"
+getgenv().AimPart = "Head" -- For R15 Games: {UpperTorso, LowerTorso, HumanoidRootPart, Head} | For R6 Games: {Head, Torso, HumanoidRootPart}  
     getgenv().AimlockKey = "c"
     getgenv().AimRadius = 30 -- How far away from someones character you want to lock on at
     getgenv().ThirdPerson = true 
