@@ -186,7 +186,7 @@ end)
 
 -- Blatant Upper
 
-MainSection:NewButton("Blatant Lock", "Keybine is c", function()
+MainSection:NewButton("Blatant Upper", "Keybine is c", function()
     getgenv().OldAimPart = "UpperTorso"
 getgenv().AimPart = "UpperTorso" -- For R15 Games: {UpperTorso, LowerTorso, HumanoidRootPart, Head} | For R6 Games: {Head, Torso, HumanoidRootPart}  
     getgenv().AimlockKey = "c"
