@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("ScareX - Da Hood (Pre release)", "BloodTheme")
+local Window = Library.CreateLib("Made by @damienw -2022 Da Hood (Pre release)", "BloodTheme")
 
 
 -- MAIN
