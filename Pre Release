@@ -365,7 +365,7 @@ end)
 MainSection:NewButton("Anti Lock", "Keybine is z", function()
     local Toggled = true
 local KeyCode = 'z'
-local hip = 2.80
+local hip = 1.1
 local val = -35
 
 
